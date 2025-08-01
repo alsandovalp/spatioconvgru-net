@@ -1,9 +1,18 @@
-# Ignorar todo en data
+# Ignorar todo el contenido de data y models
 data/*
-
-# Exceptuar .gitkeep para mantener estructura vacía
-!data/**/.gitkeep
-
-# Ignorar modelos grandes
 models/*
+
+# Permitir .gitkeep en subcarpetas
+!data/**/.gitkeep
 !models/.gitkeep
+
+__pycache__/
+*.pyc
+
+# Ignorar notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignorar grandes archivos
+*.h5
+*.parquet
+*.csv
