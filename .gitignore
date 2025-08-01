@@ -1,13 +1,9 @@
-# Ignorar entornos virtuales
-venv/
-*.venv/
+# Ignorar todo en data
+data/*
 
-# Ignorar datasets grandes
-data/bronze/
-data/golden/
+# Exceptuar .gitkeep para mantener estructura vacía
+!data/**/.gitkeep
 
-# Ignorar modelos pesados
-models/*.h5
-
-# Ignorar checkpoints o pesos
-*.weights.h5
+# Ignorar modelos grandes
+models/*
+!models/.gitkeep
