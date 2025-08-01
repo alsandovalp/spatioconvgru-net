@@ -1,0 +1,13 @@
+# Ignorar entornos virtuales
+venv/
+*.venv/
+
+# Ignorar datasets grandes
+data/bronze/
+data/golden/
+
+# Ignorar modelos pesados
+models/*.h5
+
+# Ignorar checkpoints o pesos
+*.weights.h5
