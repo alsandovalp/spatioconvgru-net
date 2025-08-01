@@ -1,11 +1,15 @@
-# Ignorar todo el contenido de data y models
+# Ignorar el contenido de data y models, pero no las carpetas
 data/*
-models/*
-
-# Permitir .gitkeep en subcarpetas
+!data/
+!data/**/
 !data/**/.gitkeep
+
+models/*
+!models/
 !models/.gitkeep
 
+# Ignorar entornos y dependencias
+venv/
 __pycache__/
 *.pyc
 
