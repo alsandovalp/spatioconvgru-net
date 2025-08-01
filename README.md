@@ -1,5 +1,5 @@
 # SpatioConvGru-Net: Predicting Urban Traffic Accidents in Bogotá  
-**Repositorio experimental que respalda la investigación “XXXX”**  
+**Repositorio experimental que respalda la investigación “SpatioConvGRU-Net for Short-Term Traffic Crash Frequency Prediction in Bogotá: A Macroscopic Spatiotemporal Deep Learning Approach with Urban Factors”**  
 
 Este repositorio contiene el soporte experimental del artículo científico *“SpatioConvGRU-Net for Short-Term Traffic Crash Frequency Prediction in Bogotá: A Macroscopic Spatiotemporal Deep Learning Approach with Urban Factors”*, ver en https://www.mdpi.com/2673-3951/6/3/71, orientado a abordar uno de los retos más complejos en la **seguridad vial urbana**: la predicción de siniestros de tránsito en entornos metropolitanos con alta densidad poblacional y dinámicas intensas de movilidad, como la ciudad de Bogotá.  
 
@@ -38,7 +38,8 @@ El desarrollo experimental se implementó en **Python**, utilizando **Keras** so
   - **Silver**: datos transformados y limpios.  
   - **Gold**: datasets definitivos y modelos exportados.  
 - Entrenamiento base + **Fine-Tuning** sobre datos heterogéneos.  
-- Documentación clara del proceso experimental para soporte científico.  
+- Documentación clara del proceso experimental para soporte científico. 
+- **Nota**: Debido a que los archivos de datos exceden el límite permitido por GitHub, estos no se encuentran en el repositorio. Para acceder a ellos, solicítelos a través del correo electrónico **alsandoval@unal.edu.co** 
 
 ---
 
